@@ -11,10 +11,15 @@ public class SecUrls {
             "/configuration/ui",
             "/swagger-ui/**",
             "/swagger-ui.html",
-            "/admin/log-in"
+            "/admin/log-in",
+            "/applications/apply"
     };
 
     static String[] adminUrls = {
-            "/admin/register"
+            "/admin/register",
+            "/applications/all",
+            "/applications/export",
+            "/applications/delete/{id}",
+
     };
 }
